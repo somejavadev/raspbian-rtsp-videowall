@@ -6,7 +6,7 @@
 # file. The script will make use of raspbian's tvservice to determine the current screen resolution and
 # divide the screen in equal size screens (totalling $SIZE).
 #
-# To kill all feeds, kill all screen processes: killall screen
+# To kill all feeds, kill all screen processes: killall omxplayer; killall screen;
 #
 # The following dependencies are required:
 # - bc
