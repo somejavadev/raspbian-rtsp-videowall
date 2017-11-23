@@ -59,7 +59,7 @@ chmod +x rtsp-video-wall.sh
 ./rtsp-video-wall.sh
 
 # To close the video wall, kill all screen sessions
-killall screen
+killall omxplayer; killall screen;
 
 ```
 
