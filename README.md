@@ -30,7 +30,7 @@ In short you only have to clone this project to your RaspberryPi, update the fee
 cd ~
 
 # Install all the prerequisites 
-sudo apt install omxplayer && sudo apt install screen && sudo apt install bc && sudo apt install git
+sudo apt install omxplayer screen bc git
 
 # Clone the project.
 git clone https://github.com/somejavadev/raspbian-rtsp-videowall.git
