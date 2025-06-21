@@ -13,7 +13,7 @@
 # - screen
 # - omxplayer
 #
-# To install these on raspbian, as root: apt install omxplayer && apt install screen && apt install bc
+# To install these on raspbian, as root: apt install omxplayer screen bc
 # Tested on raspbian stretch.
 
 SCREEN_INFO=`tvservice -s | grep -o "[0-9]*x[0-9]* @ [0-9]*\.[0-9]*[H\h][Z|z]"`;
